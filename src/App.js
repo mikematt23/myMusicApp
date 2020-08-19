@@ -4,7 +4,8 @@ import './App.css';
 import Button from '@material-ui/core/Button'
 import Login from './Components/Login'
 
-import NavBar from './Navbar'
+import NavBar from './Components/Navbar'
+import SimpleCard from './Components/Switch'
 
 
 
@@ -29,6 +30,7 @@ class App extends React.Component{
       return(
         <div>
           <Login loggedIn = {this.state.isLoggedIn} click = {this.changeState}/>
+          
         </div>
       )
     } else{
