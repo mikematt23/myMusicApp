@@ -6,15 +6,24 @@ class App extends React.Component{
   constructor(props){
     super(props)
     this.state ={
-
+      isLoggedIn : false,
+      user: ''
     }
   }
   render(){
-    return(
-      <div>
-
-      </div>
-    )
+    if(this.state.isLoggedIn){
+      return(
+        <div>
+          <h1></h1>
+        </div>
+      )
+    } else{
+      return(
+        <div>
+          <h1></h1>
+        </div>
+      )
+    }
   }
 }
 
