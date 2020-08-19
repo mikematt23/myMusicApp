@@ -7,6 +7,8 @@ import SimpleCard from './Switch'
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import NavBar from './Navbar'
+import SelectBar from './Select'
+import SelectCard from "./Select"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,7 +48,7 @@ const Login = (props)=>{
              <SimpleCard></SimpleCard>
            </Grid>
            <Grid item xs>
-             <SimpleCard></SimpleCard>
+             <SelectCard></SelectCard>
            </Grid>
            
            </Grid>
