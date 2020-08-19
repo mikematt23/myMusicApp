@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
+
 import Button from '@material-ui/core/Button'
 import Login from './Components/Login'
+
+import NavBar from './Navbar'
+
 
 
 class App extends React.Component{
@@ -30,6 +34,8 @@ class App extends React.Component{
     } else{
       return(
         <div>
+
+        <NavBar></NavBar>
           <form>
             <input type ='text'/>
             <br/>
@@ -37,6 +43,10 @@ class App extends React.Component{
             <br/>
             < Button onClick ={this.changeState}> Log In</ Button>
           </form>
+
+          
+          <h1></h1>
+
         </div>
       )
     }
