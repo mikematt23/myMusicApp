@@ -37,9 +37,9 @@ class App extends React.Component{
 
         <NavBar></NavBar>
           <form>
-            <input type ='text'/>
+            <input type ='text' placeholder = "UserName"/>
             <br/>
-            <input type ='password'/>
+            <input type ='password' placeholder = 'Password'/>
             <br/>
             < Button onClick ={this.changeState}> Log In</ Button>
           </form>
