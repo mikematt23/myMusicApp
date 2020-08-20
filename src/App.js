@@ -55,6 +55,7 @@ class App extends React.Component{
         <div >
 
         <NavBar></NavBar>
+
         <div className="SignIn">
         <form  noValidate autoComplete="off">
           <TextField id="standard-basic" label="UserName" /><br/>
@@ -63,6 +64,7 @@ class App extends React.Component{
          
     </form>
     </div>
+
           
           <h1></h1>
 
