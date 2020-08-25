@@ -14,8 +14,8 @@ const Login = (props)=>{
           <NavBar/>
           <Card className = 'width'>
             <MySlider/>
-            <Button onClick ={props.click}>Log Out</Button>
           </Card>
+          <Button onClick ={props.click}>Log Out</Button>
        </div>
        
      )
