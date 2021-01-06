@@ -26,7 +26,7 @@ function NavBar() {
         <Toolbar>
 
           <Typography variant="h6" className={classes.title}>
-            My Music App
+            My Music App!
           </Typography>
 
         </Toolbar>
